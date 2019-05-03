@@ -1,13 +1,13 @@
 const nameForm = document.querySelector('#name'),
 dataWrapper = document.querySelector('.quote'),
 userInput = document.querySelector('#yourname'),
-proxy = 'http://cors-anywhere.herokuapp.com/';
+proxy = 'https://cors-anywhere.herokuapp.com/';
 
 
 const getQuote = (event) => {
 
   event.preventDefault();
-  fetch(`${proxy}http://api.whatdoestrumpthink.com/api/v1/quotes/personalized?q=${userInput.value}`)
+  fetch(`${proxy}https://api.whatdoestrumpthink.com/api/v1/quotes/personalized?q=${userInput.value}`)
   .then(function(response) {
     return response.json();
   })

@@ -23,7 +23,7 @@ body {
  }
 
  .cheeto {
-   cursor: url('/cheeto.png'), auto;	
+   cursor: url('images/cheeto.png');	
  }
 
  .quotehere  {
@@ -54,3 +54,23 @@ body {
  #name {
      margin-top:50px;
  }
+
+ a:link {
+   color: black;
+   text-decoration: none;
+}
+
+a:visited {
+   color: black;
+   text-decoration: none;
+}
+
+a:hover {
+   color: white;
+   text-decoration: none;
+}
+
+a:active {
+   color: white;
+   text-decoration: none;
+}
