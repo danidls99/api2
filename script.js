@@ -30,3 +30,6 @@ const getQuote = (event) => {
 if (nameForm) {
     nameForm.addEventListener('submit', getQuote);
  }
+
+
+ 
